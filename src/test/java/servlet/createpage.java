@@ -12,6 +12,7 @@ public class createpage extends HttpServlet {
     throws ServletException, IOException{
 	try{
 		
+		
 		res.setContentType("text/html");
 		PrintWriter out=res.getWriter();
 		try
